@@ -6,7 +6,7 @@ Este é um site profissional para uma empresa especializada em manutenção de p
 
 ## 🔗 Acesse o Projeto
 
-👉 [Portões](https://www.souzadev.com/)
+👉 [Portões](https://www.souzadev.com/portoes)
 
 ---
 
@@ -51,11 +51,11 @@ Criar um site profissional para uma empresa especializada em manutenção de por
 
 | Página        | Link                                                                 |
 |---------------|----------------------------------------------------------------------|
-| Home Page     | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Homepage.png)     |
-| Sobre      | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Timeline.png)      |
-| Serviços  | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Curiosidades.png)  |
-| Galeria       | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Galeria.png)       |
-| Contato          | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Quiz.png)          |
+| Home Page     | [Ver imagem](https://souzadev.com/portoes/assets/images/site/Portoes%20-%20Homepage.png) |
+| Sobre         | [Ver imagem](https://souzadev.com/portoes/assets/images/site/Portoes%20-%20Sobre.png)    |
+| Serviços      | [Ver imagem](https://souzadev.com/portoes/assets/images/site/Portoes%20-%20Servicos.png) |
+| Galeria       | [Ver imagem](https://souzadev.com/portoes/assets/images/site/Portoes%20-%20Galeria.png)  |
+| Contato       | [Ver imagem](https://souzadev.com/portoes/assets/images/site/Portoes%20-%20Contato.png)  |
 
 
 ---
@@ -88,7 +88,7 @@ chmod 777 -R /caminho/do/projeto/form-submissions.log
 
 2. Acesse no navegador:
 ```bash
-http://localhost/brasil
+http://localhost/portoes
 ```
 
 ---
