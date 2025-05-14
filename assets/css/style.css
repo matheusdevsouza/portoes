@@ -1344,7 +1344,7 @@ ul {
 
     .footer__grid {
         display: flex; /* Switch to flexbox for a single row */
-        flex-direction: row; /* Ensure horizontal layout */
+        flex-direction: column; /* Ensure horizontal layout */
         justify-content: space-between; /* Distribute space evenly */
         gap: var(--spacing-md); /* Maintain spacing between items */
         text-align: center; /* Keep text centered within each section */

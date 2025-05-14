@@ -7,7 +7,7 @@
     <title>Portões Automáticos - Manutenção Profissional</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/souza-logo.png">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">

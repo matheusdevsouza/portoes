@@ -2,119 +2,153 @@
 
 Este é um site profissional para uma empresa especializada em manutenção de portões automáticos. O site foi desenvolvido usando PHP, HTML5, CSS3 e JavaScript, com foco em design moderno, responsividade e experiência do usuário.
 
-## Características
+---
 
-- Design moderno e responsivo
-- Animações suaves usando GSAP
+## 🔗 Acesse o Projeto
+
+👉 [Portões](https://www.souzadev.com/)
+
+---
+
+## 🧠 Objetivo do Projeto
+
+Criar um site profissional para uma empresa especializada em manutenção de portões automáticos, com foco em: 
+
+- Design moderno
+- Responsividade
+- Boa experiência do usuário
+- Facilidade de contato com a empresa
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **PHP**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **GSAP**
+- **MySQL** (opcional)
+- **SEO**
+- **Design Responsivo**
+- **Animações com Transições**
+
+---
+
+## 🧪 Funcionalidades
+
+- Design responsivo e moderno
+- Animações suaves com GSAP
 - Formulário de contato com validação
 - Integração com WhatsApp
-- Otimizado para SEO
-- Suporte a modo escuro
-- Carregamento lazy de imagens
-- Sistema de notificações
+- Otimização para mecanismos de busca (SEO)
+- Lazy loading de imagens
 - Menu mobile amigável
 
-## Requisitos
+---
 
-- PHP 7.4 ou superior
-- Servidor web (Apache/Nginx)
-- SSL para segurança (recomendado)
+## 📸 Imagens do Projeto
 
-## Instalação
+| Página        | Link                                                                 |
+|---------------|----------------------------------------------------------------------|
+| Home Page     | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Homepage.png)     |
+| Sobre      | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Timeline.png)      |
+| Serviços  | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Curiosidades.png)  |
+| Galeria       | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Galeria.png)       |
+| Contato          | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Quiz.png)          |
 
-1. Clone este repositório para seu servidor web:
+
+---
+
+## 🚀 Instalação
+
+1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone https://github.com/matheusdevsouza/portoes.git
+cd portoes
 ```
 
-2. Configure seu servidor web para apontar para o diretório do projeto
+2. Configure o servidor web para apontar ao diretório do projeto
 
-3. Configure as permissões dos arquivos:
+3. Ajuste permissões:
 ```bash
 chmod 755 -R /caminho/do/projeto
 chmod 777 -R /caminho/do/projeto/form-submissions.log
 ```
 
-4. Edite o arquivo `process-form.php` e atualize o email de destino:
-```php
-$config = [
-    'email' => 'seu-email@dominio.com',
-    // ...
-];
-```
+4. Edite process-form.php com seu email de destino
 
-5. Personalize o conteúdo:
-   - Substitua as imagens em `assets/images/`
-   - Atualize os textos no `index.php`
-   - Ajuste as cores no `assets/css/style.css`
-
-## Estrutura de Arquivos
-
-```
-/
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-├── includes/
-│   ├── header.php
-│   └── footer.php
-├── index.php
-├── process-form.php
-└── README.md
-```
-
-## Manutenção
-
-### Atualizando Conteúdo
-
-1. **Textos e Imagens**
-   - Edite os arquivos PHP para atualizar textos
-   - Substitua imagens em `assets/images/` mantendo os mesmos nomes de arquivo
-
-2. **Estilos**
-   - As variáveis CSS estão no início do arquivo `style.css`
-   - Modifique as cores e outros valores conforme necessário
-
-3. **Formulário de Contato**
-   - O email de destino está em `process-form.php`
-   - As validações podem ser ajustadas no mesmo arquivo
-
-### Backup
-
-Recomenda-se fazer backup regular dos seguintes itens:
-- Todo o diretório do site
-- Arquivo de log de submissões (`form-submissions.log`)
-- Configurações do servidor
-
-## Segurança
-
-1. Mantenha o PHP e todas as dependências atualizadas
-2. Use HTTPS para todas as conexões
-3. Monitore regularmente o arquivo de log
-4. Implemente rate limiting no formulário de contato
-5. Mantenha as permissões de arquivo adequadas
-
-## Performance
-
-O site foi otimizado para performance com:
-- Lazy loading de imagens
-- Minificação de CSS/JS
-- Otimização de imagens
-- Caching de recursos estáticos
-
-## Suporte
-
-Para suporte ou dúvidas, entre em contato através de:
-- Email: [seu-email@dominio.com]
-- WhatsApp: [(XX) XXXX-XXXX]
-
-## Licença
-
-Este projeto é proprietário e não pode ser redistribuído sem autorização.
+5. Personalize imagens, textos e cores nos respectivos arquivos
 
 ---
 
-Desenvolvido com ❤️ para sua empresa de portões automáticos. 
+## 🧪 Como Executar Localmente
+
+1. Inicie o servidor web (Apache, XAMPP, etc)
+
+2. Acesse no navegador:
+```bash
+http://localhost/brasil
+```
+
+---
+
+## 🗂️ Estrutura do Projeto
+```
+PORTOES/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   └── js/
+│       └── main.js
+├── includes/
+│   ├── footer.php
+│   └── header.php
+├── .htaccess
+├── contato.php
+├── galeria.php
+├── index.php
+├── process_contact.php
+├── process-form.php
+├── README.md
+├── servicos.php
+└── sobre.php
+```
+
+---
+
+## 👨‍💻 Desenvolvimento
+
+Modo dev:
+```bash
+npm run dev
+```
+
+Modo produção:
+```bash
+npm run build
+```
+
+---
+
+## 📬 Suporte
+
+Para dúvidas ou sugestões:
+
+✉️ howdy@souzadev.com | 📞 (13) 99683-7572 | 🐛 Abra uma issue no GitHub
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 💻 Desenvolvedor
+
+**Matheus Souza**
+Desenvolvedor Web e estudante de Análise e Desenvolvimento de Sistemas
+
+🔗 [GitHub](https://github.com/matheusdevsouza/) | 🌐 [Portfolio](https://www.souzadev.com) | 🏢 [LinkedIn](https://www.linkedin.com/in/matheusouzadev/)

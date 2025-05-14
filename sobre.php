@@ -7,7 +7,7 @@
     <title>Sobre Nós - Portões Automáticos</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/souza-logo.png">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -46,7 +46,7 @@
                     <p>Hoje, somos referência no mercado de portões automáticos, atendendo centenas de clientes residenciais e comerciais com o mesmo compromisso com a qualidade que nos move desde o início.</p>
                 </div>
                 <div class="history__image">
-                    <img src="/portoes/assets/images/About.svg" alt="Nossa história" class="reveal-image">
+                    <img src="assets/images/About.svg" alt="Nossa história" class="reveal-image">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="team__grid">
                 <div class="team-member">
                     <div class="team-member__image">
-                        <img src="/portoes/assets/images/joão-silva.jpg" alt="Membro da equipe">
+                        <img src="assets/images/joão-silva.jpg" alt="Membro da equipe">
                     </div>
                     <h3>João Silva</h3>
                     <p>Diretor Técnico</p>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="team-member">
                     <div class="team-member__image">
-                        <img src="/portoes/assets/images/pedro-oliveira.jpeg" alt="Membro da equipe">
+                        <img src="assets/images/pedro-oliveira.jpeg" alt="Membro da equipe">
                     </div>
                     <h3>Pedro Oliveira</h3>
                     <p>Técnico Especialista</p>
