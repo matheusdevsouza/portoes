@@ -11,6 +11,7 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/faq.css">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +26,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <body>
+
     <!-- Header -->
     <?php include 'includes/header.php'; ?>
 
@@ -68,73 +70,210 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="sobre">
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="diferenciais">
         <div class="container">
-            <div class="about__content">
-                <h2 class="section-title">Sobre Nós</h2>
-                <p>Somos especialistas em manutenção de portões automáticos, com anos de experiência no mercado. Nossa missão é garantir a segurança e conforto dos nossos clientes através de serviços de alta qualidade.</p>
-                <div class="about__stats">
-                    <div class="stat-item">
-                        <span class="stat-number"><i class="fas fa-calendar-alt"></i> 10+</span>
-                        <span class="stat-label">Anos de Experiência</span>
+            <h2 class="section-title">Por Que Nos Escolher?</h2>
+            <div class="why-us__grid">
+                <div class="why-us__item">
+                    <div class="why-us__icon">
+                        <i class="fas fa-clock"></i>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number"><i class="fas fa-users"></i> 1000+</span>
-                        <span class="stat-label">Clientes Satisfeitos</span>
+                    <h3>Atendimento Rápido</h3>
+                    <p>Resposta imediata e atendimento em até 24 horas para emergências.</p>
+                </div>
+
+                <div class="why-us__item">
+                    <div class="why-us__icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Equipe Qualificada</h3>
+                    <p>Técnicos certificados e treinados nas principais marcas do mercado.</p>
+                </div>
+
+                <div class="why-us__item">
+                    <div class="why-us__icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantia nos Serviços</h3>
+                    <p>90 dias de garantia em todos os serviços realizados.</p>
+                </div>
+
+                <div class="why-us__item">
+                    <div class="why-us__icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Preço Justo</h3>
+                    <p>Orçamentos transparentes e sem cobranças extras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title2">O Que Nossos Clientes Dizem</h2>
+            <div class="testimonials__grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Excelente serviço! O técnico foi muito profissional e resolveu o problema do meu portão rapidamente. Recomendo!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial-card__author">
+                        <img src="assets/images/maria-silva.jpg" alt="Cliente" class="testimonial-card__avatar">
+                        <div class="testimonial-card__info">
+                            <h4>Maria Silva</h4>
+                            <p>Residencial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-card__content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Manutenção preventiva feita com qualidade. O portão está funcionando perfeitamente há meses. Muito satisfeito!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial-card__author">
+                        <img src="assets/images/joão-santos.jpeg" alt="Cliente" class="testimonial-card__avatar">
+                        <div class="testimonial-card__info">
+                            <h4>João Santos</h4>
+                            <p>Comercial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-card__content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Atendimento rápido e eficiente. Instalaram um novo motor no meu portão e ficou perfeito. Preço justo!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial-card__author">
+                        <img src="assets/images/ana-oliveira.jpeg" alt="Cliente" class="testimonial-card__avatar">
+                        <div class="testimonial-card__info">
+                            <h4>Ana Oliveira</h4>
+                            <p>Residencial</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contato">
+<!-- FAQ Section -->
+<section class="faq" id="faq">
         <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-            <div class="contact__grid">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" required>
-                        <label for="name">Nome</label>
+            <h2 class="section-title2">Perguntas Frequentes</h2>
+            <div class="faq__grid">
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Quais tipos de portões vocês atendem?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" required>
-                        <label for="email">E-mail</label>
+                    <div class="faq__answer">
+                        <p>Atendemos portões automáticos residenciais e comerciais, incluindo portões basculantes, deslizantes e pivotantes de diversas marcas e modelos.</p>
                     </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" required>
-                        <label for="phone">Telefone</label>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Quanto tempo leva para realizar uma manutenção?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" required></textarea>
-                        <label for="message">Mensagem</label>
+                    <div class="faq__answer">
+                        <p>O tempo varia conforme o serviço, mas manutenções preventivas geralmente levam de 1 a 2 horas, enquanto reparos podem levar mais tempo dependendo da complexidade.</p>
                     </div>
-                    <button type="submit" class="btn btn--primary">Enviar Mensagem</button>
-                </form>
-                <div class="contact__info">
-                    <div class="contact__item">
-                        <i class="fas fa-phone"></i>
-                        <p>(11) 99999-9999</p>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Vocês oferecem garantia nos serviços?</h3>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="contact__item">
-                        <i class="fas fa-envelope"></i>
-                        <p>contato@portoes.com</p>
+                    <div class="faq__answer">
+                        <p>Sim, oferecemos 90 dias de garantia em todos os serviços realizados, assegurando a qualidade e durabilidade do nosso trabalho.</p>
                     </div>
-                    <div class="contact__item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>São Paulo, SP</p>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Como posso solicitar um orçamento?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Você pode solicitar um orçamento através do nosso formulário de contato, WhatsApp ou ligando diretamente para nossa equipe. Respondemos rapidamente!</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Vocês instalam sistemas de automação em portões manuais?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Sim, realizamos a instalação de sistemas de automação em portões manuais, adaptando-os para funcionamento automático com motores de alta qualidade.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Quais marcas de motores vocês utilizam?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Trabalhamos com marcas reconhecidas no mercado, como PPA, Garen e Peccinin, garantindo confiabilidade e desempenho para seu portão.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Vocês realizam manutenção emergencial?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Sim, oferecemos serviços de manutenção emergencial 24/7 para situações urgentes, como portões travados ou com falhas no sistema automático.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>É possível personalizar o design do portão?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Sim, oferecemos opções de personalização de portões, incluindo materiais, cores e acabamentos, para atender às preferências estéticas e funcionais do cliente.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Como funciona a manutenção preventiva?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>A manutenção preventiva inclui inspeção completa do portão, lubrificação de componentes, ajustes no motor e verificação de segurança, prolongando a vida útil do sistema.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+        <!-- Contact CTA Section -->
+        <section class="contact-cta" id="contato">
+        <div class="container-cta">
+            <div class="contact-cta__content">
+                <h2>Precisa de Ajuda com seu Portão?</h2>
+                <p>Entre em contato agora mesmo e solicite um orçamento sem compromisso!</p>
+                <div class="contact-cta__buttons">
+                    <a href="https://wa.me/SEUNUMERO" class="btn btn--whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
 
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
 
     <!-- Scripts -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/smooth-scroll.js"></script>	
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/faq.js"></script>
 </body>
-</html> 
+</html>
