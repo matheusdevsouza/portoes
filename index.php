@@ -148,7 +148,7 @@
                 <div class="testimonial-card">
                     <div class="testimonial-card__content">
                         <i class="fas fa-quote-left"></i>
-                        <p>Atendimento rápido e eficiente. Instalaram um novo motor no meu portão e ficou perfeito. Preço justo!</p>
+                        <p>Atendimento rápido e eficiente. Instalaram um novo motor no meu portão e ficou perfeito. </p>
                         <i class="fas fa-quote-right"></i>
                     </div>
                     <div class="testimonial-card__author">
@@ -253,19 +253,19 @@
         </div>
     </section>
 
-        <!-- Contact CTA Section -->
-        <section class="contact-cta" id="contato">
-        <div class="container-cta">
-            <div class="contact-cta__content">
-                <h2>Precisa de Ajuda com seu Portão?</h2>
-                <p>Entre em contato agora mesmo e solicite um orçamento sem compromisso!</p>
-                <div class="contact-cta__buttons">
-                    <a href="https://wa.me/SEUNUMERO" class="btn btn--whatsapp">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
-                </div>
+    <!-- Contact CTA Section -->
+    <section class="contact-cta" id="contato">
+    <div class="container-cta">
+        <div class="contact-cta__content">
+            <h2>Precisa de Ajuda com seu Portão?</h2>
+            <p>Entre em contato agora mesmo e solicite um orçamento sem compromisso!</p>
+            <div class="contact-cta__buttons">
+                <a href="https://wa.me/SEUNUMERO" class="btn btn--whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
             </div>
         </div>
+    </div>
 
 
     <!-- Footer -->
