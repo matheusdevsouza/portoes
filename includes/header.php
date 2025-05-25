@@ -33,9 +33,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </ul>
 
             <div class="nav__cta">
-                <a href="tel:+5511999999999" class="btn btn--outline">
+                <a href="tel:+5511976353922" class="btn btn--outline">
                     <i class="fas fa-phone"></i>
-                    (11) 99999-9999
+                    (11) 976353922
                 </a>
             </div>
         </nav>

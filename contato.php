@@ -89,14 +89,14 @@
                             <i class="fas fa-phone"></i>
                             <div>
                                 <h3>Telefone</h3>
-                                <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                                <p><a href="tel:+5511976353922">(11) 97635-3922</a></p>
                             </div>
                         </div>
                         <div class="contact-info__item">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h3>E-mail</h3>
-                                <p><a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+                                <p><a href="mailto:contato@exemplo.com">contato@portoes.com</a></p>
                             </div>
                         </div>
                         <div class="contact-info__item">
@@ -110,11 +110,11 @@
 
                     <!-- Quick Contact Buttons -->
                     <div class="quick-contact">
-                        <a href="https://wa.me/5511999999999" class="quick-contact__btn whatsapp">
+                        <a href="https://wa.me/5511976353922" class="quick-contact__btn whatsapp">
                             <i class="fab fa-whatsapp"></i>
                             <span>WhatsApp</span>
                         </a>
-                        <a href="tel:+5511999999999" class="quick-contact__btn phone">
+                        <a href="tel:+5511976353922" class="quick-contact__btn phone">
                             <i class="fas fa-phone"></i>
                             <span>Ligar</span>
                         </a>

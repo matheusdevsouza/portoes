@@ -260,7 +260,7 @@
             <h2>Precisa de Ajuda com seu Portão?</h2>
             <p>Entre em contato agora mesmo e solicite um orçamento sem compromisso!</p>
             <div class="contact-cta__buttons">
-                <a href="https://wa.me/SEUNUMERO" class="btn btn--whatsapp">
+                <a href="https://wa.me/5511976353922" class="btn btn--whatsapp">
                     <i class="fab fa-whatsapp"></i> WhatsApp
                 </a>
             </div>

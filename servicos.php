@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça nossos serviços de manutenção, instalação e reparo de portões automáticos. Soluções completas para sua segurança.">
-    <title>Serviços - Portões Automáticos</title>
+    <meta name="description" content="Conheça nossos serviços de hidráulica, elétrica, portão automático e desentupimento. Soluções completas para sua residência ou empresa.">
+    <title>Serviços - Soluções Residenciais</title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/souza-logo.png">
@@ -32,7 +32,7 @@
     <section class="page-hero">
         <div class="page-hero__content">
             <h1 class="page-hero__title">Nossos Serviços</h1>
-            <p class="page-hero__subtitle">Soluções completas em automação de portões</p>
+            <p class="page-hero__subtitle">Soluções completas em hidráulica, elétrica, portão automático e desentupimento</p>
         </div>
     </section>
 
@@ -42,103 +42,69 @@
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-card__icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Manutenção Preventiva</h3>
-                    <p class="service-card__description">Inspeção regular para garantir o funcionamento perfeito do seu portão.</p>
-                    <div class="service-card__details">
-                        <ul>
-                            <li>Verificação de componentes mecânicos</li>
-                            <li>Teste de sensores de segurança</li>
-                            <li>Lubrificação de peças móveis</li>
-                            <li>Ajuste de tensão e alinhamento</li>
-                        </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-card__icon">
                         <i class="fas fa-wrench"></i>
                     </div>
-                    <h3>Reparos</h3>
-                    <p class="service-card__description">Correção rápida e eficiente de qualquer problema em seu portão.</p>
+                    <h3>Hidráulica</h3>
+                    <p class="service-card__description">Serviços completos para sistemas hidráulicos residenciais e comerciais.</p>
                     <div class="service-card__details">
                         <ul>
-                            <li>Reparo de motores e engrenagens</li>
-                            <li>Substituição de peças danificadas</li>
-                            <li>Correção de problemas elétricos</li>
-                            <li>Ajuste de sensores e controles</li>
+                            <li>Reparos de vazamentos</li>
+                            <li>Instalação de tubulações</li>
+                            <li>Manutenção de bombas d'água</li>
+                            <li>Limpeza de caixas d'água</li>
                         </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
+                        <a href="https://wa.me/5511976353922?text=Ol%C3%A1%21%20Notei%20que%20voc%C3%AAs%20oferecem%20servi%C3%A7os%20de%20hidr%C3%A1ulica.%20Gostaria%20de%20saber%20mais%20sobre%20como%20podem%20me%20ajudar%21" target="_blank" class="btn btn--primary">Solicitar Serviço</a>
                     </div>
                 </div>
 
                 <div class="service-card">
                     <div class="service-card__icon">
-                        <i class="fas fa-cogs"></i>
+                        <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Instalação de Motores</h3>
-                    <p class="service-card__description">Instalação profissional de novos motores e automações.</p>
+                    <h3>Elétrica</h3>
+                    <p class="service-card__description">Soluções seguras e eficientes para instalações e reparos elétricos.</p>
                     <div class="service-card__details">
                         <ul>
-                            <li>Instalação de motores novos</li>
+                            <li>Instalação de circuitos elétricos</li>
+                            <li>Reparos de curtos-circuitos</li>
+                            <li>Instalação de luminárias e tomadas</li>
+                            <li>Manutenção de quadros elétricos</li>
+                        </ul>
+                        <a href="https://wa.me/5511976353922?text=Oi%21%20Vi%20que%20voc%C3%AAs%20trabalham%20com%20servi%C3%A7os%20el%C3%A9tricos.%20Estou%20precisando%20de%20uma%20solu%C3%A7%C3%A3o%2C%20podem%20me%20passar%20mais%20detalhes%3F" target="_blank" class="btn btn--primary">Solicitar Serviço</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Portão Automático</h3>
+                    <p class="service-card__description">Instalação e manutenção de portões automáticos para sua segurança.</p>
+                    <div class="service-card__details">
+                        <ul>
+                            <li>Instalação de motores</li>
+                            <li>Manutenção preventiva</li>
                             <li>Configuração de controles remotos</li>
-                            <li>Instalação de sensores de segurança</li>
-                            <li>Testes e ajustes finais</li>
+                            <li>Reparos de sistemas automatizados</li>
                         </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
+                        <a href="https://wa.me/5511976353922?text=Ol%C3%A1%21%20Estou%20interessado%20nos%20servi%C3%A7os%20de%20port%C3%A3o%20autom%C3%A1tico%20que%20voc%C3%AAs%20oferecem.%20Podem%20me%20explicar%20como%20funciona%3F" target="_blank" class="btn btn--primary">Solicitar Serviço</a>
                     </div>
                 </div>
 
                 <div class="service-card">
                     <div class="service-card__icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <i class="fas fa-toilet"></i>
                     </div>
-                    <h3>Segurança</h3>
-                    <p class="service-card__description">Implementação de sistemas de segurança avançados.</p>
+                    <h3>Desentupimento</h3>
+                    <p class="service-card__description">Serviços rápidos e eficazes para desentupir tubulações e esgotos.</p>
                     <div class="service-card__details">
                         <ul>
-                            <li>Instalação de câmeras</li>
-                            <li>Controle de acesso</li>
-                            <li>Sensores de presença</li>
-                            <li>Integração com alarmes</li>
+                            <li>Desentupimento de pias e ralos</li>
+                            <li>Limpeza de fossas sépticas</li>
+                            <li>Desobstrução de esgotos</li>
+                            <li>Inspeção com equipamentos especializados</li>
                         </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-card__icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Automação Residencial</h3>
-                    <p class="service-card__description">Integração com sistemas de automação residencial.</p>
-                    <div class="service-card__details">
-                        <ul>
-                            <li>Controle via smartphone</li>
-                            <li>Integração com assistentes virtuais</li>
-                            <li>Programação de horários</li>
-                            <li>Monitoramento remoto</li>
-                        </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
-                    </div>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-card__icon">
-                        <i class="fas fa-clipboard-check"></i>
-                    </div>
-                    <h3>Consultoria Técnica</h3>
-                    <p class="service-card__description">Assessoria especializada para seu projeto.</p>
-                    <div class="service-card__details">
-                        <ul>
-                            <li>Avaliação técnica</li>
-                            <li>Projetos personalizados</li>
-                            <li>Orçamentos detalhados</li>
-                            <li>Recomendações técnicas</li>
-                        </ul>
-                        <a href="#contato" class="btn btn--primary">Solicitar Serviço</a>
+                        <a href="https://wa.me/5511976353922?text=Oi%21%20Soube%20que%20voc%C3%AAs%20fazem%20desentupimento.%20Preciso%20de%20ajuda%20com%20isso%2C%20podem%20me%20passar%20um%20or%C3%A7amento%3F" target="_blank" class="btn btn--primary">Solicitar Serviço</a>
                     </div>
                 </div>
             </div>
@@ -179,10 +145,9 @@
                     delay: i * 0.2,
                     scrollTrigger: {
                         trigger: card,
-                        start: 'top 80%', // Inicia quando o topo do card está a 80% da viewport
-                        end: 'bottom 20%', // Termina quando a base do card está a 20% da viewport
-                        toggleActions: 'play none none reverse', // Toca na entrada, reverte na saída
-                        // markers: true, // Ative para depuração (remova em produção)
+                        start: 'top 80%', 
+                        end: 'bottom 20%', 
+                        toggleActions: 'play none none reverse', 
                     },
                 }
             );
@@ -214,4 +179,4 @@
     });
 </script>
 </body>
-</html> 
+</html>

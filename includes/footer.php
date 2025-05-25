@@ -34,7 +34,7 @@
                 <ul>
                     <li>
                         <i class="fas fa-phone"></i>
-                        <span>(11) 99999-9999</span>
+                        <span>(11) 97635-3922</span>
                     </li>
                     <li>
                         <i class="fas fa-envelope"></i>
@@ -57,6 +57,6 @@
     </div>
 </footer>
 <!-- WhatsApp Button -->
-<a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank" rel="noopener">
+<a href="https://wa.me/+5511976353922" class="whatsapp-button" target="_blank" rel="noopener">
     <i class="fab fa-whatsapp"></i>
 </a> 

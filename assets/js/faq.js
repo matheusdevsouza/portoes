@@ -37,4 +37,4 @@ document.addEventListener('DOMContentLoaded', () => {
             onStart: () => faqItems.forEach(item => item.classList.add('animate'))
         }
     );
-});
+}); 
